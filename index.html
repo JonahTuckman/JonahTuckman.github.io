@@ -3,18 +3,20 @@
       <title>Jonah Tuckman </title>
       <meta charset="utf-8" />
       <meta name = "viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-      <link rel="stylesheet" href="assets/css/main.css"/>
+      <link rel="stylesheet" href="scripts/css/main.css"/>
       <noscript>
-        <link rel="stylesheet" href="assets/css/<noscript.css" >
+        <link rel="stylesheet" href="scripts/css/<noscript.css" >
       </noscript>
 
     </head>
 
     <body>
       <div id="wrapper">
+
+        <!-- Header -->
         <header id="header">
           <div class = "logo">
-            <img src="images/HeadShot2Square.jpeg", height = "10%", width = "10%">
+            <img src="images/HeadShot2Square.jpeg", height = "20%", width = "10%">
           </div>
 
           <div class ="Content">
@@ -34,7 +36,67 @@
           </nav>
           </header>
 
-    </body>
+        <!--Main -->
+        <div id="main">
+          <!--About Section -->
+            <article id="about">
+              <h2 class="major">About</h2>
+                <p> My name is Jonah Tuckman. I am currently in my junior year at Vassar College majoring in Computer Science alongside correlates in Statistical Mathematics and Quantitative Economics.</p>
+                <br>
+                <p> I am passionate about the possibilities that predictive algorithms and the usage of data present us with. There are many global issues present which I feel solutions exist through the usage of data and Machine Learning practices including cancer detection, stock market prediction and handfuls of others</p>
 
+            </article>
+          <!-- Projects -->
+          <article id ="project">
+            <h2 class="major">Projects</h2>
 
+          </article>
+
+          <!-- Contact -->
+          <article id ="contact">
+            <h2 class="major">Contact</h2>
+            <form method="post" action = "https://formspree.io/jtuckman9@gmail.com" target ="_blank">
+
+              <div class="field half first">
+                <label for="name">Name</label>
+                <input type = "text" name="name" id = "name">
+              </div>
+
+              <div class="field half">
+                <label for="email">Email</label>
+                <input type = "email" name="email" id ="email">
+              </div>
+
+              <div class="field">
+                  <label for="message">Message</label>
+                  <textarea name="message" id = "message" rows ="4"></textarea>
+              </div>
+
+              <ul class="actions">
+                <li><input type = "submit" value = "Send Message" class = "special" /></li>
+                <li><input type = "reset" value = "Reset" /></li>
+              </ul>
+            </form>
+            <ul class = "icons">
+              <li><a href = "https://github.com/JonahTuckman" class = "icon fa-github" targets = "_blank"><span class="label"><Github</span></a></li>
+            </ul>
+          </article>
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <p class = "copyright">Jonah Tuckman: 2019 </p>
+      </footer>
+
+      </div>
+
+      <div id ="bg"></div>
+
+      <!-- JS and CSS Scripts -->
+      <script src="scripts/js/jquery.min.js"></script>
+			<script src="scripts/js/skel.min.js"></script>
+			<script src="scripts/js/util.js"></script>
+			<script src="scripts/js/main.js"></script>
+
+  </body>
 </html>
