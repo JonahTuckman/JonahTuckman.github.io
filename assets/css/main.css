@@ -2299,7 +2299,7 @@ input, select, textarea {
 		color: #ffffff;
 		font-weight: bold;
 		line-height: 1.5;
-		margin: 0 0 0.7em 0;
+		margin: 10px 10px 10px 10px;
 		display: block;
 		font-size: 1.1em;
 	}
