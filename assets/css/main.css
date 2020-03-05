@@ -28,6 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+
 body {
 	line-height: 1;
 }
@@ -2769,7 +2770,7 @@ input, select, textarea {
 
 	ul.contact {
 		list-style: none;
-		padding: 0;
+		padding: 20px;
 	}
 
 		ul.contact > li {
@@ -2779,6 +2780,7 @@ input, select, textarea {
 
 			ul.contact > li:first-child {
 				margin-top: 0;
+                padding: 5px;
 			}
 
 /* Icons */
